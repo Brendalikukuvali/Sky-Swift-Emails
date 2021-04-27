@@ -1,0 +1,52 @@
+
+@media only screen and (max-width:500px) {
+    /* For tablets: */
+    body, header {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .emails, .sky {
+      width: 100%;
+    }
+  }
+.emails{
+    background-size:cover;
+    height: 300px;
+    background-image: url("../images/Email Background Image.png");
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .btn, .container {
+      width: 100%;
+    }
+  }
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+     .ref{
+      width: 100%; 
+    }
+}
+.ref {
+    background-color: #ff6830;
+    height: 150px;
+    width: 280px;
+    border-radius: 5px;
+    text-align:justify;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .footer, .copy, .right {
+      width: 100%;
+    }
+  }
+.footer{
+    background-color:#ff6830;
+    height: 120px;
+    margin-top: 30px;
+}

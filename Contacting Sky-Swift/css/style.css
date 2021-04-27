@@ -1,0 +1,32 @@
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    body, header {
+      width: 100%;
+    }
+  }
+  
+.cont{
+    background-size:cover;
+    height: 300px;
+    background-image: url("../images/Email Background Image.png");
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .cont{
+      width: 100%;
+    }
+  }
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .container, .copy{
+      width: 100%;
+    }
+  }
+
+.footer{
+    background-color:#ff6830;
+    height: 120px;
+    margin-top: 30px;
+}
